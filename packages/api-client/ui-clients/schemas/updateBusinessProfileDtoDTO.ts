@@ -5,13 +5,7 @@
  * AI-driven social media automation platform for local businesses
  * OpenAPI spec version: 1.0
  */
-import type { UpdateBusinessProfileDtoDTOBusinessType } from './updateBusinessProfileDtoDTOBusinessType';
 
 export interface UpdateBusinessProfileDtoDTO {
-  /** Business name */
-  businessName?: string;
-  /** Business type */
-  businessType?: UpdateBusinessProfileDtoDTOBusinessType;
-  /** Business description */
-  businessDescription?: string;
+  [key: string]: unknown;
 }
