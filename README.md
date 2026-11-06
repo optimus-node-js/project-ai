@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install (Root Level)
 ```powershell
@@ -31,12 +31,12 @@ CREATE DATABASE businesspro;
 pnpm dev     # Starts both frontend & backend
 ```
 
-**Frontend**: http://localhost:3001  
+**Frontend**: http://localhost:3001
 **Backend API**: http://localhost:3000/api/v1
 
 ---
 
-## 📦 Monorepo Structure
+## Monorepo Structure
 
 ```
 BusinessPro/
@@ -50,7 +50,7 @@ BusinessPro/
 
 ---
 
-## 🎯 Available Scripts
+## Available Scripts
 
 ```bash
 bun dev               # Start both FE + BE
@@ -77,7 +77,7 @@ bun clean             # Clean everything
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. Perfect Authentication
 - Email/password with JWT
@@ -128,7 +128,7 @@ POST /api/v1/ai/feedback
 
 ---
 
-## 🗄️ Database Tables
+## Database Tables
 
 ### Core
 - `users` - User accounts
@@ -147,7 +147,7 @@ POST /api/v1/ai/feedback
 
 ---
 
-## 🎨 Task Categories
+## Task Categories
 
 | Category | Description | Best Model | Cost |
 |----------|-------------|------------|------|
@@ -162,7 +162,7 @@ POST /api/v1/ai/feedback
 
 ---
 
-## 📊 How Model Selection Works
+## How Model Selection Works
 
 ### Scoring Algorithm
 ```
@@ -178,20 +178,20 @@ Total = 100 points
 
 ### Example: Caption Generation (simple, speed priority)
 
-**GPT-4 Mini**: 100 points ← **Selected!**
-- ✅ Fast response time
-- ✅ Low cost
-- ✅ Well-suited for captions
-- ✅ User liked it before
+**GPT-4 Mini**: 100 points **Selected!**
+- Fast response time
+- Low cost
+- Well-suited for captions
+- User liked it before
 
 **GPT-4**: 90 points
-- ❌ Slower
-- ❌ More expensive
-- ✅ Higher quality (not needed for simple task)
+- Slower
+- More expensive
+- Higher quality (not needed for simple task)
 
 ---
 
-## 🔄 Learning Loop
+## Learning Loop
 
 ```
 1. User requests generation
@@ -211,9 +211,9 @@ Total = 100 points
 
 ---
 
-## 📚 Documentation
+## Documentation
 
-- **Setup Summary**: `/docs/SETUP_SUMMARY.md` ← Start here!
+- **Setup Summary**: `/docs/SETUP_SUMMARY.md` Start here!
 - **Enhanced AI Guide**: `/docs/ENHANCED_AI_SETUP.md`
 - **Database Schema**: `/docs/DATABASE_SCHEMA_ENHANCED.md`
 - **API Endpoints**: `/docs/API_ENDPOINTS.md`
@@ -222,7 +222,7 @@ Total = 100 points
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**:
 - Next.js 16
@@ -250,7 +250,7 @@ Total = 100 points
 
 ---
 
-## 🎯 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/register` - Register
@@ -274,7 +274,7 @@ Total = 100 points
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ```env
 # Database
@@ -297,7 +297,7 @@ AI_GATEWAY_BASE_URL=https://ai-gateway.vercel.sh/v1
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Test Authentication
 ```powershell
@@ -341,7 +341,7 @@ curl -X POST http://localhost:3000/api/v1/ai/feedback `
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### PostgreSQL not running
 ```powershell
@@ -362,18 +362,18 @@ PORT=3001
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
-### Phase 1: MVP ✅
-- ✅ Authentication system
-- ✅ Basic AI generation
-- ✅ Database setup
+### Phase 1: MVP
+- Authentication system
+- Basic AI generation
+- Database setup
 
-### Phase 2: Intelligence ✅
-- ✅ Task-based model selection
-- ✅ User preference learning
-- ✅ Feedback system
-- ✅ Performance tracking
+### Phase 2: Intelligence
+- Task-based model selection
+- User preference learning
+- Feedback system
+- Performance tracking
 
 ### Phase 3: Content Management (Next)
 - [ ] Content CRUD
@@ -389,44 +389,43 @@ PORT=3001
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a private project for Business Pro. See `/docs/memory-bank/CONTEXT.md` for product vision and constraints.
 
 ---
 
-## 📄 License
+## License
 
 Private - Business Pro © 2026
 
 ---
 
-## 🎉 Summary
+## Summary
 
 **You have a production-ready backend with:**
 
-✅ Monorepo with unified dependencies  
-✅ Perfect email/password authentication  
-✅ **Intelligent AI that learns from users**  
-✅ **Automatic model selection for any task**  
-✅ Multi-provider AI support (OpenAI, Anthropic, Google)  
-✅ Complete database schema for AI management  
-✅ User feedback & preference learning  
-✅ Performance tracking & optimization  
-✅ Clean npm scripts for all operations  
-✅ Comprehensive documentation  
+ Monorepo with unified dependencies
+ Perfect email/password authentication
+ **Intelligent AI that learns from users**
+ **Automatic model selection for any task**
+ Multi-provider AI support (OpenAI, Anthropic, Google)
+ Complete database schema for AI management
+ User feedback & preference learning
+ Performance tracking & optimization
+ Clean npm scripts for all operations
+ Comprehensive documentation
 
-**Your system gets smarter with every user interaction! 🚀**
+**Your system gets smarter with every user interaction! **
 
 ---
 
-## 👤 Author
+## Author
 
-**Rahul Vishwakarma** — Senior Full Stack Developer · Ahmedabad, India
+**Rahul Vishwakarma**, Senior Full Stack Developer based in Ahmedabad, India
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-rahul--vishwakarma--portfolio.vercel.app-0A66C2?style=flat-square&logo=vercel&logoColor=white)](https://rahul-vishwakarma-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20Vishwakarma-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rahul-vishwakarma-101346192)
 [![Email](https://img.shields.io/badge/Email-karmarahul67%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:karmarahul67@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-optimus--node--js-181717?style=flat-square&logo=github)](https://github.com/optimus-node-js)
 
-If you find this project useful, consider giving it a ⭐.
